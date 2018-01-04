@@ -1,0 +1,482 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    width:auto;
+    height: auto;
+    font-family:微軟正黑體;
+}
+
+  body{
+    background-color:#4c2a1e;
+  }
+
+  main{
+    height:1710px;
+    width: 1280px;
+    padding: 0px 40px;
+    margin: auto;
+  }
+
+  .header{
+      width: 1200px;
+      height:215px;
+  }
+
+  .logo{
+    width: 302px;
+    height: 122px;
+    margin-top: 65px;
+  }
+
+  .headerdiv1{
+      float: right;
+      margin-top:141px;
+  }
+
+  .btn_facebook{
+       width: 28px;
+      height: 46px;
+      margin-right: 20px;
+   float: left;
+  }
+
+  .btn_instagram{
+      width: 46px;
+      height: 46px;
+      margin-right: 20px;
+      float: left;
+  }
+
+  .btn_twitter{
+       width: 51px;
+      height: 43px;
+      margin-right: 20px;
+      float: left;
+  }
+
+  .btn_mail{
+    width: 51px;
+    height: 39px;
+    padding-right:px;
+    margin-right: 20px;
+    float: left;
+  }
+
+  .sitebar{
+    display: none;
+  }
+
+  .navbar{
+    width: 1200px;
+    height: 50px;
+    background-color:#efb39a;
+  }
+
+  .navbartext{
+    color:#4c2a1e;
+    font-size: 30px;
+    margin:5px 60px ;
+    float: left;
+  }
+
+  .indeximg{
+    padding-top: 27px;
+    padding-bottom: 23px;
+  }
+
+  .img_1{
+    width:1200px;
+    height:355px;
+  }
+
+  .contnet{
+    width: 1200px;
+    height: 350px;
+    background-color: #efb39a;
+    margin-bottom: 30px;
+  }
+
+  .contenttext1 {
+    float: left;
+    width:700px;
+    height:366px;
+  }
+
+  .contenttext2 {
+    margin:10px 0px;
+  }
+
+  .contenttext2 p{
+    font-size: 100px;
+    text-align:center;
+    color: #4c2a1e;
+  }
+
+  .contenttext3 p{
+      font-size: 23px;
+      line-height: 35px;
+      color: #4c2a1e;
+      margin-left:40px;
+  }
+
+  .contenttext4 p{
+      display: none;
+  }
+
+  .img_2{
+      float:left;
+      width:410px;
+      height:290px;
+      margin:30px 30px 30px 40px;
+  }
+
+  .m_menu{
+    display: none;
+  }
+
+  .contnetZ{
+    width: 1200px;
+    height: 241px;
+    background-color: #efb39a;
+  }
+
+  .veg_img {
+      width: 259px;
+      height: 194px;
+      margin-left: 30px;
+      margin-top: 20px;
+      box-shadow: 2px 2px 5px #4c2a1e;
+  }
+
+  .headerdiv2{
+    display: none;
+  }
+
+  footer {
+    width:100%;
+    height: 57px;
+    background-color: #efb39a;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 24px;
+    color: #4c2a1e;
+  }
+
+  .footer {
+    position: absolute;
+    text-align: center;
+    clear: both;
+  }
+
+@media screen and (max-width: 1279px) {
+
+  main{
+    height:1620px;
+    width: 768px;
+    padding: 0px 20px;
+    margin: auto;
+  }
+
+  .header{
+    width: 728px;
+    height:155px;
+  }
+
+  .logo{
+    float: left;
+    margin-right: 90px;
+    margin-top: 30px;
+  }
+
+  .headerdiv1{
+    float:left;
+    margin-top:30px;
+  }
+
+  .ham{
+    display: block;
+    background-color: #ffdac8;
+    border-radius: 1px;
+    height:3px;
+    margin:8px 8px;
+  }
+
+  .sitebar{
+    float: left;
+    display: inline-block;
+    margin-top: 30px;
+    width: 60px;
+    height: 43px;
+    border-radius: 4px;
+  }
+
+  .ham:hover{
+    color: #4c2a1e;
+  }
+
+  .sitebar:hover{
+    background-color: #cd8162;
+    cursor:pointer;
+  }
+
+  .sitebar ul{
+    display: none;
+    position: absolute;
+    left:0;
+    width: 100%;
+  }
+
+  .sitebar ul li{
+    list-style: none;
+    margin: 0;
+  }
+
+  .navbar{
+    display: none;
+  }
+
+  .indeximg{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .img_1{
+      width:710px;
+      height:215px;
+  }
+
+  .contnet{
+    width: 710px;
+    height: 500px;
+    margin-bottom: 20px;
+  }
+
+  .contenttext1 {
+    float: left;
+    width:710px;
+    height: 270px;
+  }
+
+  .contenttext2 p{
+    font-size: 80px;
+    width: 710px;
+    text-align:center;
+    color: #4c2a1e;
+  }
+
+  .contenttext3 p{
+    width: 710px;
+    font-size: 20px;
+    line-height: 25px;
+    margin-left:35px;
+    padding-bottom: 22px;
+    color: #4c2a1e;
+  }
+
+  .img_2{
+    display: none;
+  }
+
+  .m_menu{
+    float: left;
+    display: block;
+    width: 630px;
+    height: 200px;
+    background-color: #ffffff;
+    margin-left: 35px;
+  }
+
+  .m_text{
+    float: left;
+    margin: 25px 30px;
+    color: #4c2a1e;
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  .contnetZ{
+    width: 710px;
+    height: 150px;
+  }
+
+  .veg_img {
+      width: 153px;
+      height: 106px;
+      margin-left: 16.5px;
+      margin-top: 22px;
+  }
+
+  .headerdiv2{
+    display: none;
+  }
+
+  footer {
+    height: 40px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  main{
+    height:1250px;
+    width: 320px;
+    padding: 0px 0px;
+    margin: auto;
+  }
+
+  .header{
+    width: 320px;
+    height:53px;
+    position: relative;
+  }
+
+  .logo{
+    float: left;
+    margin-left: 10px;
+    max-width: 40%;
+    height:auto;
+    margin-top: 10px;
+  }
+
+  .headerdiv1{
+    display: none;
+  }
+
+  .sitebar{
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    border-radius: 4px;
+  }
+
+  .navbar{
+    display: none;
+  }
+
+  .indeximg{
+    padding-top: 20px;
+    padding-bottom: 7px;
+  }
+
+  .img_1{
+    margin: 0px 0px;
+    width:320px;
+    height:100px;
+  }
+
+  .contnet{
+    width: 320px;
+    height: 388px;
+    margin-bottom: 10px;
+  }
+
+  .contenttext1 {
+    float: left;
+    width:320px;
+    height: 230px;
+  }
+
+  .contenttext2 p{
+    font-size: 40px;
+    width: 320px;
+    text-align:center;
+    color: #4c2a1e;
+  }
+
+  .contenttext3 p{
+    display:none;
+  }
+
+  .contenttext4 p{
+    text-align: center;
+    float:left;
+    display: block;
+    width: 320px;
+    font-size: 13px;
+    line-height: 20px;
+    padding-bottom: 20px;
+    color: #4c2a1e;
+  }
+
+  .img_2{
+    display: none;
+  }
+
+  .m_menu{
+    float: left;
+    display: block;
+    width: 280px;
+    height: 140px;
+    background-color: #ffffff;
+    margin-left: 20px;
+  }
+
+  .m_text{
+    float: left;
+    margin: 10px 65px;
+    color: #4c2a1e;
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .block2{
+    display: none;
+  }
+
+  .contnetZ{
+    width: 320px;
+    height: 230px;
+  }
+
+  .veg_img {
+      width: 130px;
+      height: 80px;
+      margin:15px 0px 15px 15px;
+  }
+
+  .headerdiv2{
+    display: block;
+    margin: 10px 95px;
+  }
+
+  .btn_facebook{
+       width: 14px;
+      height: 23px;
+      margin-right: 10px;
+   float: left;
+  }
+
+  .btn_instagram{
+      width: 23px;
+      height: 23px;
+      margin-right: 10px;
+      float: left;
+  }
+
+  .btn_twitter{
+       width: 25px;
+      height: 22px;
+      margin-right: 10px;
+      float: left;
+  }
+
+  .btn_mail{
+    width: 25px;
+    height: 20px;
+    margin-right: 10px;
+    float: left;
+  }
+
+  footer {
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 10px;
+  }
+}
